@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.greyscale {
+    padding: 0;
+    -webkit-filter: grayscale(1);
+}
+
+.color-border {
+    outline: 5px solid #ff875f;
+    border-top: 25px solid #ff875f;
+    border-bottom: 25px solid #ff875f;
+    background:#93f082;
+    text-align: center;
+}
+
+header {
+    background-color: #ff875f;
+}
+
+.right-aligned {
+    text-align: right;
+    line-height: 2;
+    padding-right: 40px;
+}
+
+.right-aligned h1 {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.right-aligned h5 {
+    padding-bottom: 30px;
+}
+
+#about-pandas-container {
+    padding: 50px 30%;
+}
+
+#about-pandas {
+    background: #ff875f;
+    padding: 20px;
+}
+
+#about-pandas h2 {
+    line-height: 3;
+}
+
+#pictures {
+    background: #93f082;
+    font-size: 30px;
+}
+
+#pictures img {
+    border: 10px solid white;
+}
+
+footer {
+    background: #ff875f;
+    outline: 5px solid #ff875f;
+}
