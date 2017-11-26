@@ -1,0 +1,35 @@
+@media (max-width: 732px) {
+    #home {
+        text-align: center;
+        padding-right: 0;
+    }
+    #home h1 {
+        font-size: 2em;
+    }
+    #home h5 {
+        font-size: 1em;
+    }
+    #about-pandas-container {
+        padding: 0;
+    }
+    #about-pandas {
+        background: #93f082;
+        outline: none;
+    }
+    #about-pandas h2 {
+        line-height: 2;
+    }
+    #pictures {
+        padding: 0;
+    }
+    #pictures .col-3 {
+        width: 50%;
+    }
+    #pictures img {
+        display: block;
+    }
+    footer .col-12 {
+        text-align: center;
+        padding: 1em 0;
+    }
+}
